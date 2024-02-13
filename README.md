@@ -9,7 +9,7 @@ This repo contains code that takes in crypto wallet addresses and calculates hou
 
 ## Instructions on project setup
 1. Clone the repository and set the current working directory to `../wallet-pnl`
-3. Set the Coingecko API key as an environment variable (In Windows: System Properties -> Environment Variables -> User variables -> Add New...). Alternatively can set it through command line `setx COINGECKO_API_KEY=<value>". Demo Account API privileges suffices.
+3. Set the Coingecko API key as an environment variable (In Windows: System Properties -> Environment Variables -> User variables -> Add New...). Alternatively can set it through command line `setx COINGECKO_API_KEY=\<value\>". Demo Account API privileges suffices.
 4. Optional: Set up a virtual env
 5. Install the python packages from `requirements.txt` using `pip install -r requirements.txt`
 6. Run `setup_db.bat` - You will need to fill in your password for the superuser `postgres` several times. *WARNING*: be aware that it cleans slate before setting up the tables, users and privileges, so take a close look at the resources and their names. These resources can be found in `setup_db.sql`.
