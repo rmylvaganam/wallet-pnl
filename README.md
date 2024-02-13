@@ -16,7 +16,7 @@ This repo contains code that takes in crypto wallet addresses and calculates hou
 7. Running the application:      
   a. To run the ingestion process: `python -m app.ingestion.ingestion`     
   b. To run the pnl script: `python -m app.pnl.pnl <wallet_address>`, e.g. `python -m app.pnl.pnl 0x26a016De7Db2A9e449Fe5b6D13190558d6bBCd5F`   
-  c. To start the web server: `uvicorn app.main:app --reload`    
+  c. To start the web server: `uvicorn app.main:app --reload` - Check `http://127.0.0.1:8000/` for a Hello World message.    
 
 ## API Endpoints
 `/calculate_pnl`: Calculates the hourly PnL for a given wallet address of the past week.  
