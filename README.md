@@ -1,6 +1,6 @@
 # wallet-pnl
 
-This repo contains code that takes in crypto wallet addresses and calculates hourly PnL's of the last week for this wallet. First top 10 crypto coins (based on market cap) data is ingested into a local database, then the wallet address is used as input to Allium's API to find its transaction history. Based on this historical data, we can calulcate the PnL since the wallet's starting date. In this demo project, we will only look at the PnL of the last seven days however.
+This repo contains code that takes in crypto wallet addresses and calculates hourly PnL's of the last week for this wallet. First top 10 crypto coins (based on market cap) data is ingested into a local database, then the wallet address is used as input to Allium's API to find its transaction history. Based on this historical data, we can calculate the PnL since the wallet's starting date. In this demo project, we will only look at the PnL of the last seven days however.
 
 ## Requirements
 - Postgres 16
